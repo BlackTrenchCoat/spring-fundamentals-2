@@ -6,6 +6,7 @@ spring:
       hibernate:
         show_sql: true
     # Don't do hibernate schema generation since we'll be reading the schema from a file
+    # See https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-creating-and-dropping-jpa-databases
     hibernate:
       ddl-auto: none
   h2:
