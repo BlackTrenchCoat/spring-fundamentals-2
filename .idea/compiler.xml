@@ -9,10 +9,9 @@
         <module name="profileswithspringboot" />
       </profile>
     </annotationProcessing>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="profileswithspringboot" options="" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="profileswithspringboot" target="11" />
+      <module name="spring-fundamentals-2" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
