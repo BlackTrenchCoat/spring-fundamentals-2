@@ -61,6 +61,7 @@
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
+				<!-- Enable filtering so application.yml will replace @activeProfile@ with the value of the activeProfile property -->
 				<filtering>true</filtering>
 			</resource>
 		</resources>

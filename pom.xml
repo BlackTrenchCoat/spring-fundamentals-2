@@ -10,7 +10,9 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>profilesprespringboot</module>
         <module>profileswithspringboot</module>
+        <module>profileswithspringbootoldschool</module>
     </modules>
 
     <properties>
