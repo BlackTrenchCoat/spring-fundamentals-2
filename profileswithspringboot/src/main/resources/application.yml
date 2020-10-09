@@ -12,6 +12,7 @@ spring:
   h2:
     console:
       enabled: true
+  # This has every part of the database configuration except spring.datasource.data, which is in the application-PROFILE.yml file
   datasource:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:data
