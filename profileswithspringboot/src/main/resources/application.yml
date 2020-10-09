@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: @activeProfile@
+    active: '@activeProfile@'
   jpa:
     properties:
       hibernate:
