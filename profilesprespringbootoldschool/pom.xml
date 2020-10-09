@@ -65,7 +65,7 @@
 
         <!--
             Run it from the command line
-            mvn exec:java -Dexec.mainClass=org.theproject.springfundmentals2.profilesprespringboot.ProfilesprespringbootApplication
+            mvn exec:java -Dexec.mainClass=org.theproject.springfundamentals2.profilesprespringbootoldschool.ProfilesPreSpringBootOldSchoolApplication
         -->
         <plugins>
             <plugin>
