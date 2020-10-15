@@ -63,7 +63,7 @@
 
         <!--
             Run it from the command line
-            mvn exec:java -Dexec.mainClass=org.theproject.springfundamentals2.profilesprespringbootconditionalbeancreation.ProfilesPreSpringBootConditionalBeanCreationApplication
+            mvn -PPROFILE clean package exec:java -Dexec.mainClass=org.theproject.springfundamentals2.profilesprespringbootconditionalbeancreation.ProfilesPreSpringBootConditionalBeanCreationApplication
         -->
         <plugins>
             <plugin>
